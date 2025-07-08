@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e1dbdb;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(110, 151, 171);
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(81, 110, 124);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 350px;
+    height: 340px;
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 20px;
+    
+}
+
+.quote {
+    width: 320px;
+    height: 150px;
+    margin-top: 30px;
+    overflow:auto;
+    padding: 10px;
+    text-align: justify;
+    padding-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+
+
+.author {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.author>h3 {
+    text-indent: 70px;
+
+    color: blue;
+}
+
+.newquote {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.newquote>button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
