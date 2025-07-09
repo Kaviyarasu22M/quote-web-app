@@ -25,5 +25,3 @@ A modern and responsive **Quote Generator Web App** that fetches inspirational q
 
 ---
 
-## 📦 Project Structure
-
