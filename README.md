@@ -4,17 +4,6 @@ A modern and responsive **Quote Generator Web App** that fetches inspirational q
 
 🔗 **Live Demo:** (https://quote-web-app.netlify.app/)
 
----
-
-## 🚀 Features
-
-- 📝 Fetches random quotes dynamically using a quote API  
-- 🔁 "New Quote" button to load a new quote instantly  
-- 🌐 Lightweight and fast with minimal design  
-- 📱 Fully responsive across devices  
-- 🔒 Hosted securely on Netlify
-
----
 
 ## 🛠️ Tech Stack
 
